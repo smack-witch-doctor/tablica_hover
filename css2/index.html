@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+table {
+border:2px solid blue;
+border-spacing: 0px;
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5 px 10px;
+    border: 1px solid blue;
+}
+
+a{
+    color:red;
+    text-decoration: none;
+}
+
+
+.cell{
+background-color: gold;
+}
+
+.cel:hover{
+    background-color: lightgreen;
+    cursor:pointer;
+}
+
+a:visited{
+
+color:magenta
+}
+a:active{
+    color:blue;
+}
+.cell2{
+    background-color: yellow;
+}
+
+.cell2:hover{
+    background-color: brown;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+    <table>
+        <tr>
+            <td rowspan="4"> <a href="www.google.com" target="_blank" class="cell"> A </a> </th>
+            <td> C  </th>
+            <td colspan="2" class="cell2">  C </th>
+        </tr>
+        <tr>
+            <td colspan="3">  D  </td>
+          
+        </tr>
+        <tr>
+            <td colspan="2">  E  </td>
+            <td rowspan="2">  F  </td>
+           
+        </tr>
+        <tr>
+            <td> <a href="www.google.com" target="_blank" class="cell"> G </a></td>
+            <td> >  </td>
+        </tr>
+    </table>
+</section>
+
+
+</body>
+</html>
